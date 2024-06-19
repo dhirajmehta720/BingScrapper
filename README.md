@@ -68,7 +68,7 @@ import (
 )
 
 func main() {
-    res, err := BingScrape("akhil sharma", "com", nil, 1, 15, 30)
+    res, err := BingScrape("dhiraj mehta", "com", nil, 1, 15, 30)
     if err == nil {
         for _, res := range res {
             fmt.Println(res)
